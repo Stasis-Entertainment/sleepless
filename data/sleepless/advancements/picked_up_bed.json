@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "tag": "minecraft:beds"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "sleepless:events/pick_up_bed"
+  }
+}

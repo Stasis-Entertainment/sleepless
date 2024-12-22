@@ -1,0 +1,99 @@
+{
+    "away_effect": {
+      "sounds": [
+        {
+          "name": "sleepless:ambient/away_effect",
+          "stream": true,
+          "volume": 1
+        }
+      ]
+    },
+    "clock_strike": {
+      "sounds": [
+        {
+          "name": "sleepless:ambient/clock_strike",
+          "stream": true,
+          "volume": 0.8
+        }
+      ]
+    },
+    "click": {
+      "sounds": [
+        {
+          "name": "sleepless:ambient/click",
+          "stream": true,
+          "volume": 0.6
+        }
+      ]
+    },
+    "return": {
+      "sounds": [
+        {
+          "name": "sleepless:ambient/return",
+          "stream": true,
+          "volume": 0.8
+        }
+      ]
+    },
+    "wary": {
+      "sounds": [
+        {
+          "name": "sleepless:ambient/wary_1",
+          "stream": true,
+          "volume": 1
+        },
+        {
+          "name": "sleepless:ambient/wary_2",
+          "stream": true,
+          "volume": 1
+        },
+        {
+          "name": "sleepless:ambient/wary_3",
+          "stream": true,
+          "volume": 1
+        },
+        {
+          "name": "sleepless:ambient/wary_4",
+          "stream": true,
+          "volume": 1
+        },
+        {
+          "name": "sleepless:ambient/wary_5",
+          "stream": true,
+          "volume": 1
+        },
+        {
+          "name": "sleepless:ambient/wary_6",
+          "stream": true,
+          "volume": 1
+        }
+      ]
+    },
+    "sunrise": {
+      "sounds": [
+        {
+          "name": "sleepless:ambient/sunrise",
+          "stream": true,
+          "volume": 0.7
+        }
+      ]
+    },
+    "nightmare": {
+      "sounds": [
+        {
+          "name": "sleepless:ambient/nightmare",
+          "stream": true,
+          "volume": 1
+        }
+      ]
+    },
+    "death": {
+      "sounds": [
+        {
+          "name": "sleepless:ambient/death",
+          "stream": true,
+          "volume": 1
+        }
+      ]
+    }
+}

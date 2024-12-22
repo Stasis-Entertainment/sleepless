@@ -1,0 +1,89 @@
+    {
+        "providers": [
+            {
+                "type": "space",
+                "advances": {
+                    " ": 4,
+                    "‌": 0
+                }
+            },
+            {
+                "type": "bitmap",
+                "file": "minecraft:font/ascii.png",
+                "ascent": 7,
+                "height": 8,
+                "chars": [
+                    "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+                    "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+                    " !\"#$%&'()*+,-./",
+                    "0123456789:;<=>?",
+                    "@ABCDEFGHIJKLMNO",
+                    "PQRSTUVWXYZ[\\]^_",
+                    "`abcdefghijklmno",
+                    "pqrstuvwxyz{|}~\u0000",
+                    "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+                    "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000£\u0000\u0000ƒ",
+                    "\u0000\u0000\u0000\u0000\u0000\u0000ªº\u0000\u0000¬\u0000\u0000\u0000«»",
+                    "░▒▓│┤╡╢╖╕╣║╗╝╜╛┐",
+                    "└┴┬├─┼╞╟╚╔╩╦╠═╬╧",
+                    "╨╤╥╙╘╒╓╫╪┘┌█▄▌▐▀",
+                    "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000∅∈\u0000",
+                    "≡±≥≤⌠⌡÷≈°∙\u0000√ⁿ²■\u0000"
+                ]
+            },
+            {
+                "ascent": 200,
+                "chars": [
+                    "\uBC00"
+                ],
+                "file": "sleepless:font/sleepless/fade.png",
+                "height": 400,
+                "type": "bitmap"
+            },
+            {
+                "ascent": 200,
+                "chars": [
+                    "\uBC01"
+                ],
+                "file": "sleepless:font/sleepless/nightmare.png",
+                "height": 400,
+                "type": "bitmap"
+            },
+            {
+                "ascent": 200,
+                "chars": [
+                    "\uBC02"
+                ],
+                "file": "sleepless:font/sleepless/nightmare_finale.png",
+                "height": 400,
+                "type": "bitmap"
+            },
+            {
+                "ascent": 32,
+                "chars": [
+                    "\uBC03"
+                ],
+                "file": "sleepless:font/sleepless/nightmare_eyes.png",
+                "height": 64,
+                "type": "bitmap"
+            },
+            {
+                "ascent": 32,
+                "chars": [
+                    "\uBC04"
+                ],
+                "file": "sleepless:font/sleepless/nightmare_eyes_close.png",
+                "height": 64,
+                "type": "bitmap"
+            },
+            {
+                "ascent": 32,
+                "chars": [
+                    "\uBC05"
+                ],
+                "file": "sleepless:font/sleepless/nightmare_eyes_closer.png",
+                "height": 64,
+                "type": "bitmap"
+            }
+        ]
+    }

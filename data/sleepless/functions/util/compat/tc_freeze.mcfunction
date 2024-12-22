@@ -1,0 +1,1 @@
+gamerule doDaylightCycle_tc false
