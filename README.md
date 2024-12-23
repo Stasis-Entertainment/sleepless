@@ -4,8 +4,10 @@
 
 Synopsis:
 
-Sleepless, Originally made for TheLibrarianYT, is a datapack which can be installed to make your Minecraft gameplay a little more challenging. An entity is hunting you every night, and remembers every room you sleep in. It knows when you leave the house, and will search for you if you don't have a bed to sleep in.
-The rules are simple; Don't sleep in the same room twice, and have a new room built before dawn. For the first three days, you'll be allowed to stay up to get a bed and build your house, as well as the first few rooms of many for you to sleep in. After the three days are up, you are no longer allowed the luxury of staying up all night. From then on the sun peeking over the horizon shall be your enemy. If you don't have a safe bed by morning, something... horrible will happen. 
+Sleepless, originally made for TheLibrarianYT, is a gameplay-changing datapack to make your Minecraft experience a little more challenging.
+An entity is hunting you every night, and remembers every room you sleep in. It knows when you leave the house, and will search for you if you don't have a bed to sleep in before sunrise.
+
+The rules are simple; Don't sleep in the same room twice, and have a new room built before dawn. For the first three days, you'll be allowed to stay up to get a bed and build your house, as well as the first few rooms of many for you to sleep in. After the three days are up, you are no longer allowed the luxury of staying up all night. From then on, the sun peeking over the horizon shall be your enemy. If you don't have a safe bed by morning, something... _horrible_ will happen.
 
 This was the very first released project by Stasis Entertainment. Whether you're using it for your hardcore world, using the ready-made modpack, or adding it to your own modpack, we hope you enjoy the experience. 
 
@@ -30,3 +32,8 @@ Out of game, you will need the DATAPACK (not the mod), and modify the file at sl
 The pack marks every bed that you place, regardless of if you sleep in it or not. Every morning, every single placed bed becomes unsafe, and must be moved to a new "room".
 In reality, the new "room" can be anywhere that is greater than about 5 blocks away from the previous position.
 If you are not next to a new bed by sunrise, the entity will find you.
+
+---
+
+Check out the Librarian: [https://www.youtube.com/watch?v=yDCrRzz2PkY](https://www.youtube.com/watch?v=yDCrRzz2PkY)
+[![Librarian's YouTube Video](https://cdn.discordapp.com/attachments/1269786204396851241/1320254223400566794/image.png?ex=6768ee0f&is=67679c8f&hm=bd6a63341773b5a80aae9a4fde268ca8704d4103733bb4d18e5d9599577f47af&)](https://www.youtube.com/watch?v=yDCrRzz2PkY)
