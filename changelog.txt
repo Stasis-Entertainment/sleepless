@@ -1,5 +1,8 @@
 1.0
 ====
- - 1.0.1
-   - Added Japanese localization (courtesy of AorticTempo)
- - 1.0.0 INITIAL RELEASE
+ > 1.0.2
+   + Added Hungarian localization (courtesy of AstralVixen)
+   + Added credits file
+ > 1.0.1
+   + Added Japanese localization (courtesy of AorticTempo)
+ > 1.0.0 INITIAL RELEASE
