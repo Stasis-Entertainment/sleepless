@@ -1,6 +1,7 @@
 1.0
 ====
  > 1.0.2
+   = Fixed a bug that caused the pack to break when running the refresh_day_length function or changing day length
    + Added Hungarian localization (courtesy of AstralVixen)
    + Added credits file
  > 1.0.1

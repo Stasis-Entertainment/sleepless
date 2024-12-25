@@ -13,6 +13,7 @@ scoreboard players set 4 sleepless.value 4
 scoreboard players set 10 sleepless.value 10
 scoreboard players set 48 sleepless.value 48
 scoreboard players set 1200 sleepless.value 1200
+scoreboard players set 6000 sleepless.value 6000
 scoreboard players set 24000 sleepless.value 24000
 
 # Load config default if it failed to load correctly
