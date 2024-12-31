@@ -1,8 +1,8 @@
 # Freeze day or night
 gamerule doDaylightCycle false
 # Save current values
-execute store result score doFireTick sleepless.value run gamerule doFireTick
-execute store result score doWeatherCycle sleepless.value run gamerule doWeatherCycle
+execute unless score doFireTick sleepless.value matches 1.. store result score doFireTick sleepless.value run gamerule doFireTick
+execute unless score doWeatherCycle sleepless.value matches 1.. store result score doWeatherCycle sleepless.value run gamerule doWeatherCycle
 # Freeze fire
 gamerule doFireTick false
 # Freeze weather

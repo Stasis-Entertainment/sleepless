@@ -1,5 +1,6 @@
 # If the player sleeps without a new bed, start a nightmare
-execute unless entity @e[tag=sleepless.newBed,distance=..4] if score nightmareEffect sleepless.config matches 1 run function sleepless:events/nightmare
+execute unless entity @e[tag=sleepless.newBed,distance=..4] unless entity @s[tag=sleepless.away] if score nightmareEffect sleepless.config matches 1 run function sleepless:events/nightmare
+execute at @s[tag=sleepless.away] run tp ~ ~ ~
 # Reset the trigger
 advancement revoke @s only sleepless:sleep
 # Reset the sleeping count

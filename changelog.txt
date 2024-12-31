@@ -1,3 +1,20 @@
+1.1
+====
+ > 1.1.0
+   = Spectators will no longer be "found" when staying up without a bed. Creative mode unchanged for now
+   = Turning on spectator when being found will cancel the effect as though near a bed
+   = Death effects now target non-creative, non-spectator players, rather than just survival
+   = Localized the morning chime so it can be heard with sound physics installed
+   = Generally enhanced code for multiplayer use
+   = Made exhaustion effects last 35 seconds to cover gaps between applications
+   = Made room counter more accurate by disallowing additional markers when beds are nearly adjacent. "same room" sleeping
+   - Reduced room size requirement by 1 block - beds must now be 4 blocks apart instead of 5
+   - Slightly reduced the time for the bonus anti-exhaustion effect from sleeping (15m -> 10m)
+   + Made used beds no longer safe by morning even by "sleeping" in them
+   + Made used beds kick the player out if they are being targeted for being without a bed
+   + Fixed a bug that caused the pack to only target the first player in the list in multiplayer
+   + Fixed a bug that caused firetick and weathercycle to permanently freeze
+   + Fixed the death sound effect
 1.0
 ====
  > 1.0.2

@@ -7,7 +7,7 @@ execute as @e[tag=sleepless.slept] run scoreboard players add rooms sleepless.va
 # Decrement the delay effect
 scoreboard players remove @a[scores={sleepless.awayDelay=1..}] sleepless.awayDelay 1
 # Play the chime value
-execute if score morningChime sleepless.config matches 1 run playsound sleepless:sunrise master @a ~ ~ ~ 1 1 1
+execute if score morningChime sleepless.config matches 1 as @a at @s run playsound sleepless:sunrise master @s ~ ~ ~ 1 1 1
 # If room count is on but not day count, show only room count
 execute unless score dayCount sleepless.config matches 1 if score roomCount sleepless.config matches 1 run scoreboard players set roomEffect sleepless.value 0
 execute unless score dayCount sleepless.config matches 1 if score roomCount sleepless.config matches 1 run schedule function sleepless:events/room_count_loop 6s
