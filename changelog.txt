@@ -8,6 +8,7 @@
    = Generally enhanced code for multiplayer use
    = Made exhaustion effects last 35 seconds to cover gaps between applications
    = Made room counter more accurate by disallowing additional markers when beds are nearly adjacent. "same room" sleeping
+   = Made death messages more accurate by increasing the effective range for the public message
    - Reduced room size requirement by 1 block - beds must now be 4 blocks apart instead of 5
    - Slightly reduced the time for the bonus anti-exhaustion effect from sleeping (15m -> 10m)
    + Made used beds no longer safe by morning even by "sleeping" in them
@@ -15,6 +16,7 @@
    + Fixed a bug that caused the pack to only target the first player in the list in multiplayer
    + Fixed a bug that caused firetick and weathercycle to permanently freeze
    + Fixed the death sound effect
+   + Fixed nightmares not being considered ended properly and causing repeated deaths and messages
 1.0
 ====
  > 1.0.2

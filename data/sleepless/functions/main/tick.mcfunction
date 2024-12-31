@@ -20,7 +20,7 @@ execute as @a at @s run function sleepless:main/player_tick
 # Away effect based on calculated day ending
 execute as @a at @s unless dimension minecraft:the_end unless score @s[gamemode=!spectator] sleepless.awayDelay matches 1.. if score awayEffect sleepless.config matches 1 if score dayticks sleepless.value >= sunriseLimit sleepless.value unless score dayphase sleepless.value matches 5.. unless entity @e[tag=sleepless.newBed,distance=..8] run function sleepless:events/away_effect_start
 execute if score dayticks sleepless.value >= sunriseLimit sleepless.value unless score dayphase sleepless.value matches 5.. run scoreboard players set dayphase sleepless.value 5
-execute as @a at @s unless dimension minecraft:the_end unless score @s sleepless.awayDelay matches 1.. if score awayEffect sleepless.config matches 1 if score dayticks sleepless.value >= sunriseEnd sleepless.value unless score dayphase sleepless.value matches 6 as @e[tag=sleepless.away] run function sleepless:events/away_effect_end
+execute as @a at @s unless dimension minecraft:the_end unless score @s sleepless.awayDelay matches 1.. if score awayEffect sleepless.config matches 1 if score dayticks sleepless.value >= sunriseEnd sleepless.value unless score dayphase sleepless.value matches 6 as @s[tag=sleepless.away] run function sleepless:events/away_effect_end
 execute if score dayticks sleepless.value >= sunriseEnd sleepless.value unless score dayphase sleepless.value matches 6 run scoreboard players set dayphase sleepless.value 6
 
 #Clock messages if the player holds a clock in hotbar or offhand in the overworld

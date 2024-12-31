@@ -18,7 +18,7 @@ execute at @s run playsound sleepless:death master @s ~ ~ ~ 1 1
 title @s clear
 # show the custom death message first for the dying player, then for everyone else if death messages are on
 tellraw @s {"translate": "sleepless.death.you","color": "#660000","italic": true,"bold": true}
-execute at @s if score showDeathMessages sleepless.value matches 1.. run tellraw @a[distance=1..] [{"selector": "@s","color": "#660000", "italic": true,"bold": true},{"text":" "},{"translate": "sleepless.death", "color": "#660000", "bold": true, "italic": true}]
+execute at @s if score showDeathMessages sleepless.value matches 1.. run tellraw @a[distance=0.1..] [{"selector": "@s","color": "#660000", "italic": true,"bold": true},{"text":" "},{"translate": "sleepless.death", "color": "#660000", "bold": true, "italic": true}]
 # restore the saved gamerules
 execute unless score doImmediateRespawn sleepless.value matches 1.. run gamerule doImmediateRespawn false
 execute if score showDeathMessages sleepless.value matches 1.. run gamerule showDeathMessages true
